@@ -1,0 +1,36 @@
+const $links = document.getElementById('links');
+const $name = document.querySelector('h1');
+
+const data = {
+    name: "Daniel Gonzalez",
+    nickname: "Danju",
+    description: "...",
+    avatar: "...",
+    social: [
+      {
+        name: "twitter",
+        url: "https://twitter.com/",
+        username: "Danju",
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/danju_gv/",
+        username: "Danju_Gv",
+      },
+    ],
+    links: [
+      {
+        name: "blog",
+        url: "https://youtu.be/dQw4w9WgXcQ",
+        color: "red",
+        emoji: "📖",
+      },
+      {
+        name: "podcast",
+        url: "https://youtu.be/dQw4w9WgXcQ",
+        color: "yellow",
+        emoji: "💬",
+      },
+    ],
+    footer: "Made with Love on Mexico",
+  };
